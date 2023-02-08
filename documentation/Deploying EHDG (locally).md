@@ -14,3 +14,8 @@ Once you have these installed, create a new Visual Studio Code project. Ensure y
 
 Once you have successfully deployed the image as a container, go to localhost:3000 or in Visual Studio Code right click on the container name jalaluddin7/name and click "Open in Browser". Ta-da! Event Hub Data Generator should be running locally on your machine.
 
+## Command Line
+### pull docker image
+docker pull jalaluddin7/fakerapp:v1
+### run the app on port 8000
+ docker run --publish 8000:3000 jalaluddin7/fakerapp:v1
